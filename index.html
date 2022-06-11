@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/47ad3625c6.js" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
   <body>
     <nav class="flex-h-sb-center" id="nav-mobile">
       <img src="./img/logo.png" alt="" />
-      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      <div class="icon"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
     </nav>
     <nav class="flex-h-sb-center" id="nav">
-      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+      <div class="icon"><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div>
       <ul class="menu">
         <img src="./img/logo.png" alt="" />
         <li><a href="">Home</a></li>
